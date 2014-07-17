@@ -1,0 +1,4 @@
+#!/bin/bash
+##J.HE
+
+date|awk -F" " '{print $2"-"$3"-"$6}'
